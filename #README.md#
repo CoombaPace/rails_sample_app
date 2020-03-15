@@ -6,8 +6,12 @@ This is the sample application found in Ruby on Rails Tutorial by Michael Hartl.
 
 ## Getting Started
 
-To get started, clone the repo and install gems:
+1. To get started, clone the repo and install gems:
 
 ```
 bundle install
 ```
+2. Migrate the Database:
+```$ rails db:migrate```
+
+3. 
