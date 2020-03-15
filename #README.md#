@@ -7,11 +7,13 @@ This is the sample application found in Ruby on Rails Tutorial by Michael Hartl.
 ## Getting Started
 
 1. To get started, clone the repo and install gems:
+```$ bundle install```
 
-```
-bundle install
-```
 2. Migrate the Database:
 ```$ rails db:migrate```
 
-3. 
+3. Run test suite:
+```$ rails test```
+
+4. If the test passes, you should be ready to deploy locally:
+```$ rails s```
